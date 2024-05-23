@@ -1,12 +1,10 @@
 FROM node as react-hot-cold
 
-ARG TOKEN
-
 RUN apt-get update
 RUN apt-get upgrade -y 
 RUN apt-get install -y git
 
-RUN git clone https://github.com/kkanie/react-hot-cold.git
+RUN git clone https://github.com/anamika8/react-hot-cold.git
 WORKDIR /react-hot-cold
 
 
