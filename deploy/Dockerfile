@@ -4,4 +4,3 @@ WORKDIR /app
 
 RUN npm install -g serve
 CMD serve -s build
-CMD npm start
